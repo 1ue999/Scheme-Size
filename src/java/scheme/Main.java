@@ -50,9 +50,6 @@ public class Main extends Mod {
         MessageQueue.load();
         RainbowTeam.load();
 
-        ui.schematics = schemas; // do it before build hudfrag
-        ui.listfrag = listfrag;
-
         units.load();
         builds.load();
         keycomb.load();
